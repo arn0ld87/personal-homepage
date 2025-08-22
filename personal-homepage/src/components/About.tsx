@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 
@@ -83,7 +82,7 @@ const About: React.FC = () => {
                 'Framer Motion',
                 'Node.js',
                 'UI/UX Design',
-              ].map((skill, index) => (
+              ].map((skill) => (
                 <motion.div
                   key={skill}
                   variants={itemVariants}

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
 
@@ -16,7 +16,6 @@ const Hero: React.FC = () => {
   // Parallax-Transformationen für verschiedene Elemente
   const y1 = useTransform(scrollYProgress, [0, 1], ["0%", "50%"])
   const y2 = useTransform(scrollYProgress, [0, 1], ["0%", "100%"])
-  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
   return (
     <section
