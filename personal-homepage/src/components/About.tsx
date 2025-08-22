@@ -56,19 +56,21 @@ const About: React.FC = () => {
               variants={itemVariants}
               className="text-lg text-gray-600 leading-relaxed"
             >
-              Als leidenschaftlicher Webentwickler verbinde ich kreative Designs 
-              mit moderner Technologie. Mit über 5 Jahren Erfahrung in der 
-              Frontend-Entwicklung habe ich mich auf die Erstellung responsiver, 
-              performanter und barrierefreier Webanwendungen spezialisiert.
+              Mein Name ist Alexander Schneider und ich bin ein leidenschaftlicher 
+              Fachinformatiker in Ausbildung. Zurzeit absolviere ich meine Umschulung 
+              zum Fachinformatiker für Systemintegration am Berufsförderungswerk 
+              (BFW) in Leipzig.
             </motion.p>
 
             <motion.p
               variants={itemVariants}
               className="text-lg text-gray-600 leading-relaxed"
             >
-              Meine Leidenschaft liegt in der Entwicklung von benutzerfreundlichen 
-              Oberflächen, die nicht nur funktional sind, sondern auch visuell 
-              beeindrucken und eine emotionale Verbindung zum Nutzer aufbauen.
+              Meine ganz besondere Leidenschaft gilt der Künstlichen Intelligenz 
+              und ihren vielfältigen Anwendungsmöglichkeiten. Ich bin fasziniert 
+              davon, wie KI die Welt verändert und neue Wege eröffnet, technische 
+              Herausforderungen zu meistern. Diese Begeisterung treibt mich an, 
+              kontinuierlich dazuzulernen und innovative Lösungen zu entwickeln.
             </motion.p>
 
             {/* Skills-Liste */}
@@ -83,7 +85,7 @@ const About: React.FC = () => {
                 'Framer Motion',
                 'Node.js',
                 'UI/UX Design',
-              ].map((skill, index) => (
+              ].map((skill) => (
                 <motion.div
                   key={skill}
                   variants={itemVariants}

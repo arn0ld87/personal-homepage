@@ -60,20 +60,20 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'E-Mail',
-      value: 'hello@example.com',
-      href: 'mailto:hello@example.com',
+      value: 'schneider@alexle135.de',
+      href: 'mailto:schneider@alexle135.de',
     },
     {
       icon: Phone,
       title: 'Telefon',
-      value: '+49 123 456789',
-      href: 'tel:+49123456789',
+      value: '+49 155 68920209',
+      href: 'tel:+4915568920209',
     },
     {
       icon: MapPin,
       title: 'Standort',
-      value: 'Berlin, Deutschland',
-      href: 'https://maps.google.com/?q=Berlin,Germany',
+      value: 'Leipzig, Deutschland',
+      href: 'https://maps.google.com/?q=Leipzig,Germany',
     },
   ]
 

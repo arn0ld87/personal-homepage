@@ -17,42 +17,36 @@ const Skills: React.FC = () => {
     {
       name: 'Frontend-Entwicklung',
       icon: Code,
-      level: 95,
       color: 'bg-blue-500',
       description: 'React, TypeScript, Next.js, Vue.js',
     },
     {
       name: 'UI/UX Design',
       icon: Palette,
-      level: 85,
       color: 'bg-purple-500',
       description: 'Figma, Adobe XD, User Research',
     },
     {
       name: 'Backend-Entwicklung',
       icon: Server,
-      level: 80,
       color: 'bg-green-500',
       description: 'Node.js, Express, Python, REST APIs',
     },
     {
       name: 'Datenbanken',
       icon: Database,
-      level: 75,
       color: 'bg-yellow-500',
       description: 'PostgreSQL, MongoDB, Redis',
     },
     {
       name: 'Mobile-Entwicklung',
       icon: Smartphone,
-      level: 70,
       color: 'bg-red-500',
       description: 'React Native, Flutter, PWA',
     },
     {
       name: 'DevOps & Git',
       icon: GitBranch,
-      level: 85,
       color: 'bg-indigo-500',
       description: 'Docker, CI/CD, AWS, GitHub Actions',
     },
@@ -118,26 +112,6 @@ const Skills: React.FC = () => {
 
               <p className="text-sm text-gray-600 mb-4">{skill.description}</p>
 
-              {/* Progress-Bar */}
-              <div className="space-y-2">
-                <div className="flex justify-between text-sm">
-                  <span className="text-gray-600">Fortschritt</span>
-                  <span className="font-semibold text-gray-900">{skill.level}%</span>
-                </div>
-                <div className="w-full bg-gray-200 rounded-full h-2">
-                  <motion.div
-                    className={`h-2 rounded-full ${skill.color}`}
-                    initial={{ width: 0 }}
-                    animate={inView ? { width: `${skill.level}%` } : { width: 0 }}
-                    transition={{
-                      duration: 1,
-                      delay: index * 0.1,
-                      ease: "easeOut"
-                    }}
-                  />
-                </div>
-              </div>
-
               {/* Hover-Details */}
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
@@ -146,7 +120,7 @@ const Skills: React.FC = () => {
               >
                 <div className="pt-4 border-t border-gray-100">
                   <p className="text-sm text-gray-500">
-                    {skill.level >= 90 ? 'Experte' : skill.level >= 75 ? 'Fortgeschritten' : 'Kompetent'}
+                    In Entwicklung
                   </p>
                 </div>
               </motion.div>
