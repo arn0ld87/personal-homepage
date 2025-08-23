@@ -4,6 +4,7 @@ import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Navigation from './components/Navigation'
+import Footer from './components/Footer'
 
 /**
  * Haupt-App-Komponente
@@ -18,6 +19,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Contact />
+      <Footer />
     </div>
   )
 }

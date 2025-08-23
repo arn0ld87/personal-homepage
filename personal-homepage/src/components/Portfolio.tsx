@@ -20,7 +20,7 @@ const Portfolio: React.FC = () => {
       description: 'Moderne Online-Shop Plattform mit React und Next.js, komplette Bestellabwicklung und Zahlungsintegration.',
       image: '/images/project-1.jpg',
       tags: ['React', 'Next.js', 'Stripe', 'PostgreSQL'],
-      github: 'https://github.com/username/ecommerce',
+      github: 'https://github.com/arn0ld87/ecommerce',
       demo: 'https://demo-shop.vercel.app',
     },
     {
@@ -29,7 +29,7 @@ const Portfolio: React.FC = () => {
       description: 'Kollaborative Aufgabenverwaltung mit Echtzeit-Updates, Drag-and-Drop und Team-Funktionen.',
       image: '/images/project-2.jpg',
       tags: ['React', 'TypeScript', 'Socket.io', 'MongoDB'],
-      github: 'https://github.com/username/taskmanager',
+      github: 'https://github.com/arn0ld87/taskmanager',
       demo: 'https://task-app-demo.netlify.app',
     },
     {
@@ -38,7 +38,7 @@ const Portfolio: React.FC = () => {
       description: 'Interaktives Wetter-Dashboard mit Live-Daten, Vorhersagen und personalisierbaren Widgets.',
       image: '/images/project-3.jpg',
       tags: ['React', 'API Integration', 'Charts', 'Tailwind'],
-      github: 'https://github.com/username/weather-dashboard',
+      github: 'https://github.com/arn0ld87/weather-dashboard',
       demo: 'https://weather-dashboard-demo.netlify.app',
     },
     {
@@ -47,7 +47,7 @@ const Portfolio: React.FC = () => {
       description: 'Responsive Portfolio-Seite mit modernen Animationen und optimierter Performance.',
       image: '/images/project-4.jpg',
       tags: ['React', 'Framer Motion', 'Tailwind CSS', 'Responsive'],
-      github: 'https://github.com/username/portfolio',
+      github: 'https://github.com/arn0ld87/portfolio',
       demo: 'https://portfolio-demo.vercel.app',
     },
     {
@@ -56,7 +56,7 @@ const Portfolio: React.FC = () => {
       description: 'Analytics-Dashboard für Social Media mit detaillierten Einblicken und Berichten.',
       image: '/images/project-5.jpg',
       tags: ['Vue.js', 'Chart.js', 'API', 'Tailwind'],
-      github: 'https://github.com/username/social-dashboard',
+      github: 'https://github.com/arn0ld87/social-dashboard',
       demo: 'https://social-demo.netlify.app',
     },
     {
@@ -65,7 +65,7 @@ const Portfolio: React.FC = () => {
       description: 'KI-gestützter Content-Generator mit GPT-Integration und benutzerfreundlicher Oberfläche.',
       image: '/images/project-6.jpg',
       tags: ['React', 'OpenAI API', 'Node.js', 'Express'],
-      github: 'https://github.com/username/ai-content',
+      github: 'https://github.com/arn0ld87/ai-content',
       demo: 'https://ai-demo.vercel.app',
     },
   ]
@@ -207,7 +207,7 @@ const Portfolio: React.FC = () => {
             Interessiert an mehr Projekten?
           </p>
           <a
-            href="https://github.com/username"
+            href="https://github.com/arn0ld87"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"

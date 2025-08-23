@@ -1,0 +1,37 @@
+{
+  "orchestration": {
+    "enabled": true,
+    "agents": {
+      "react-typescript": {
+        "enabled": true,
+        "priority": 1,
+        "triggers": ["react", "typescript", "component", "hook"]
+      },
+      "vite-build": {
+        "enabled": true,
+        "priority": 2,
+        "triggers": ["build", "deploy", "optimization", "performance"]
+      },
+      "vitest-testing": {
+        "enabled": true,
+        "priority": 3,
+        "triggers": ["test", "coverage", "testing"]
+      },
+      "tailwind-styling": {
+        "enabled": true,
+        "priority": 4,
+        "triggers": ["style", "css", "responsive", "tailwind", "design"]
+      },
+      "portfolio-content": {
+        "enabled": true,
+        "priority": 5,
+        "triggers": ["content", "seo", "project", "portfolio", "data"]
+      }
+    }
+  },
+  "project": {
+    "type": "portfolio",
+    "tech_stack": ["react", "typescript", "vite", "vitest", "tailwind"],
+    "features": ["responsive", "dark-mode", "seo", "testing", "performance"]
+  }
+}
